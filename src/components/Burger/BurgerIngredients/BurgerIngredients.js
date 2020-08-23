@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import classes from "./BurgerIngredient.css"
+import classes from "./BurgerIngredients.css"
 import React, { Component } from 'react';
 
 class BurgerIngredient extends Component {
@@ -8,6 +8,16 @@ class BurgerIngredient extends Component {
     //     this.state= {}
 
     // }
+
+    state = {
+        ingredients : {
+            salad: 1,
+            bacon: 1,
+            cheese: 2,
+            meat: 2,
+
+        }
+    }
 
     render() {
 

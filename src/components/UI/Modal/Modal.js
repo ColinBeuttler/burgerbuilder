@@ -1,7 +1,7 @@
 import React from 'react';
 import Classes from "./Modal.css";
 import Auxcomp from "../../../hoc/AuxComp"
-import BackDrop from '../BackDrop/BackDrop'
+import BackDrop from '../BackDrop/Backdrop'
 
 const modal = (props) => (
     <Auxcomp>
